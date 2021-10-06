@@ -26,7 +26,7 @@ import datetime as dt
 def home(request):
     current_user = request.user
 
-    return render(request,"home.html")
+    return render(request, 'home.html')
 
 
 @login_required(login_url='/accounts/login/')
